@@ -1,0 +1,16 @@
+enabled:
+  # Configuration.h
+  FILAMENT_RUNOUT_SENSOR:
+  FILAMENT_RUNOUT_DISTANCE_MM: 5
+  EXTRUDE_MAXLENGTH: 100 # to tune
+  NOZZLE_PARK_FEATURE:
+
+  # Configuration_adv.h
+  ADVANCED_PAUSE_FEATURE:
+  PAUSE_PARK_RETRACT_FEEDRATE: 30 # to tune (Change it to your retraction speed)
+  PAUSE_PARK_RETRACT_LENGTH: 6 # to tune (Change it to your retraction length)
+  FILAMENT_CHANGE_UNLOAD_LENGTH: 100 # to tune (Length from the extruder gear to the nozzle OR set it to 0 for manual filament extraction) (This needs to be less than or equal to EXTRUDE_MAXLENGTH)
+  FILAMENT_CHANGE_FAST_LOAD_LENGTH: 0 # to tune (Length from the extruder gear to the nozzle OR set it to 0 for manual filament insertion) (This needs to be less than or equal to EXTRUDE_MAXLENGTH)
+  FILAMENT_CHANGE_ALERT_BEEPS: 10 # to tune (10 might be too much/annoying, if so, lower it to your liking)
+  PARK_HEAD_ON_PAUSE:
+  FILAMENT_LOAD_UNLOAD_GCODES: #(Adds M701/M702 Load/Unload G-code, and Load/Unload in the LCD Prepare menu.)

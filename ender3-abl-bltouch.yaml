@@ -1,0 +1,25 @@
+enabled:
+  # Configuration.h
+  ENDSTOP_INTERRUPTS_FEATURE:
+  NOZZLE_TO_PROBE_OFFSET: '{ -44.5, -10, 0.00 }' # to tune
+  PROBING_MARGIN: 15 # to tune, If clips holding the bed, set to 15+clip_size+5
+  Z_MIN_PROBE_REPEATABILITY_TEST:
+  AUTO_BED_LEVELING_BILINEAR:
+  RESTORE_LEVELING_AFTER_G28:
+  Z_SAFE_HOMING:
+  
+  # Configuration_adv.h
+  ASSISTED_TRAMMING: #(Needs Octoprint, Pronterface, Repetier, Simplify3D, etc. )
+  TRAMMING_POINT_XY: '{ { A, A }, { B, A }, { B, B }, { A, B } }' # to tune
+  TRAMMING_SCREW_THREAD: 40
+  SHORT_MANUAL_Z_MOVE: 0.005
+  PROBE_OFFSET_WIZARD:
+  BABYSTEPPING:
+  BABYSTEP_MULTIPLICATOR_Z: 4
+  DOUBLECLICK_FOR_Z_BABYSTEPPING:
+  BABYSTEP_ZPROBE_OFFSET:
+  BABYSTEP_ZPROBE_GFX_OVERLAY:
+  BLTOUCH:
+  XY_PROBE_SPEED: (100*60)
+
+disabled:
